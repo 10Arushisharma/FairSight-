@@ -2,6 +2,8 @@ import { useState } from 'react'
 import axios from 'axios'
 import { AlertTriangle, CheckCircle, RefreshCw, Send, Brain, Scale, Activity, ShieldCheck, Zap } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
+import FairnessSpectrum from "./components/FairnessSpectrum";
+
 
 function App() {
   const [formData, setFormData] = useState({
@@ -229,6 +231,13 @@ function App() {
                 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
                 className="glass p-8 rounded-3xl flex flex-col flex-grow relative overflow-hidden shadow-xl"
               >
+                 <div className="mb-8">
+    <h3 className="text-sm font-bold text-slate-400 mb-3 uppercase tracking-wider">
+      Fairness Spectrum
+    </h3>
+
+    <FairnessSpectrum score={result.fairness_score} />
+  </div>
                 <div className="flex items-start gap-5 mb-8">
                   {result.bias_detected ? (
                     <div className="p-4 bg-rose-500/10 rounded-2xl text-rose-400 border border-rose-500/20 shadow-[0_0_15px_rgba(244,63,94,0.2)] shrink-0">
