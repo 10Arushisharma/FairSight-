@@ -23,7 +23,7 @@ A hackathon-ready full-stack web application designed to analyze resource alloca
    ```bash
    cp .env.example .env
    ```
-4. Edit `.env` and add your **OpenRouter API Key** (or standard OpenAI-compatible API key for Gemma 4).
+4. Edit `.env` and add your **OpenRouter API Key** (for Gemma 4).
 5. Start the server:
    ```bash
    npm run dev
