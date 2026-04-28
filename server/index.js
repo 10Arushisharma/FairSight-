@@ -171,3 +171,6 @@ ${JSON.stringify(context_data, null, 2)}`;
 app.listen(PORT, () => {
     console.log(`FairSight AI Server running on port ${PORT}`);
 });
+app.get("/", (req, res) => {
+  res.send("FairDecision AI Backend is running 🚀");
+});
