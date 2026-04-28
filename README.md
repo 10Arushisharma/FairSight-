@@ -122,7 +122,7 @@ npm run dev
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### POST /analyze
 - Input: decision parameters  
