@@ -1,11 +1,11 @@
-# 🚀 FairDecision AI – Bias-Aware Decision System  
+#  FairSight AI – Bias-Aware Decision System 
 ### Auditing AI decisions for fairness, transparency, and accountability using Gemma 4
 
 ---
 
-## 🎯 Objective
+##  Objective
 
-FairDecision AI is a full-stack web application that:
+FairSight AI is a full-stack web application that:
 
 - Takes structured inputs (region, population, damage level, income level)
 - Computes a **resource allocation priority score**
@@ -20,14 +20,13 @@ FairDecision AI is a full-stack web application that:
 
 ---
 
-## 🌟 Core Features
+##  Core Features
 
-### ⚙️ Decision Engine
+###  Decision Engine
 priority = (damage * 0.5 + population * 0.3 - income * 0.2)
 
 ---
-
-### 🧠 AI Explanation (Gemma 4)
+###  AI Explanation (Gemma 4)
 
 - Explains reasoning behind decisions  
 - Detects bias (region, income, etc.)  
@@ -36,7 +35,7 @@ priority = (damage * 0.5 + population * 0.3 - income * 0.2)
 
 ---
 
-### ⚖️ AI on Trial
+###  AI on Trial
 
 - Ask questions about decisions  
 - Understand *why* and *how* outcomes were generated  
@@ -44,7 +43,7 @@ priority = (damage * 0.5 + population * 0.3 - income * 0.2)
 
 ---
 
-### 🔧 Fix Bias
+###  Fix Bias
 
 - Adjust weights or inputs  
 - Recompute decision score  
@@ -52,7 +51,7 @@ priority = (damage * 0.5 + population * 0.3 - income * 0.2)
 
 ---
 
-### 🎨 Fairness Score Visualization
+###  Fairness Score Visualization
 
 - 🟢 Green → Score > 70 (Fair)  
 - 🟡 Yellow → 40–70 (Moderate)  
@@ -60,7 +59,7 @@ priority = (damage * 0.5 + population * 0.3 - income * 0.2)
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 **Frontend**
 - React (Vite)
@@ -82,16 +81,16 @@ priority = (damage * 0.5 + population * 0.3 - income * 0.2)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 client/ # Frontend (React)
 server/ # Backend (Node.js)
 
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Backend Setup
+###  Backend Setup
 
 
 cd server
@@ -113,7 +112,7 @@ npm run dev
 
 ---
 
-### 2️⃣ Frontend Setup
+### Frontend Setup
 
 
 cd client
@@ -139,7 +138,7 @@ npm run dev
 
 ---
 
-## 🖥️ UI Components
+## UI Components
 
 - Input Form  
 - Result Dashboard  
@@ -150,7 +149,7 @@ npm run dev
 
 ---
 
-## 🛡️ Security
+## Security
 
 - `.env` is ignored via `.gitignore`
 - API keys are not exposed
@@ -158,16 +157,10 @@ npm run dev
 
 ---
 
-## 💡 Use Cases
+##  Use Cases
 
 - Government resource allocation  
 - Loan approval systems  
 - Hiring fairness analysis  
 - Policy auditing  
 - AI ethics research  
-
----
-
-## 👨‍💻 Author
-
-Built real-world AI fairness applications 🚀
